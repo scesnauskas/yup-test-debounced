@@ -34,8 +34,8 @@ require('yup-test-debounced')(yup)
 Schema
 ```js
 const schema = yup.object().shape({
-  field: yup.string().test(
-    'debounced', 
+  field: yup.string().testDebounced(
+    'testDebounced', 
     'Field validated after 500ms debounce', 
     (value) => value !== null, 
     500

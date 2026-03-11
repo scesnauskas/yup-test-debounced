@@ -14,6 +14,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scesnauskas/yup-test-debounced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scesnauskas/yup-test-debounced/issues"
+  },
+  "homepage": "https://github.com/scesnauskas/yup-test-debounced",
   "scripts": {
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
     "build": "tsc"

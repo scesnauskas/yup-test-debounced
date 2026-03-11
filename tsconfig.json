@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "types": [ "node" ],
+        "outDir": "dist/",
+        "baseUrl": "."
+    },
+    "include": [ "**/*.ts", "**/*.js" ],
+    "exclude": ["node_modules", "examples"]
+}

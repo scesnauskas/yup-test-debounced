@@ -1,0 +1,31 @@
+{
+  "name": "yup-test-debounced",
+  "version": "1.0.0",
+  "description": "Run yup test command debounced",
+  "keywords": [
+    "yup",
+    "test",
+    "debounced"
+  ],
+  "license": "MIT",
+  "author": "@scesnauskas",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "yup": "^1.7.1"
+  }
+}

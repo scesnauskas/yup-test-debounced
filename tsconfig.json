@@ -1,9 +1,20 @@
 {
-    "compilerOptions": {
-        "types": [ "node" ],
-        "outDir": "dist/",
-        "baseUrl": "."
-    },
-    "include": [ "**/*.ts", "**/*.js" ],
-    "exclude": ["node_modules", "examples"]
+  "compilerOptions": {
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es2022",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist/",
+    "baseUrl": "."
+  },
+  "include": ["**/*.ts", "**/*.js"],
+  "exclude": ["node_modules", "examples", "dist"]
 }

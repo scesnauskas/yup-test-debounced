@@ -24,7 +24,7 @@
   "homepage": "https://github.com/scesnauskas/yup-test-debounced",
   "scripts": {
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
-    "build": "tsc"
+    "build": "tsc --declaration"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

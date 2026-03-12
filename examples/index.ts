@@ -5,7 +5,7 @@ import testDebounced from '../src'
 testDebounced(yup)
 
 const schema = yup.object({
-  field: yup.object().testDebounced(
+  field: yup.string().testDebounced(
     'field',
     'Validated after 500ms debounce',
     (value) => {

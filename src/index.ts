@@ -1,4 +1,4 @@
-import { Message, TestFunction } from 'yup'
+import { Message, MixedSchema, TestFunction } from 'yup'
 
 declare module 'yup' {
   interface Schema<TType, TContext, TDefault, TFlags> {
@@ -7,7 +7,7 @@ declare module 'yup' {
       message: Message,
       callback: TestFunction<TType, TContext>,
       wait?: number
-    ): Schema<TType, TContext, TDefault, TFlags>
+    ): MixedSchema<TType, TContext, TDefault, TFlags>
   }
 }
 

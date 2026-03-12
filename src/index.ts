@@ -1,4 +1,5 @@
-import { Message, MixedSchema, TestFunction } from 'yup'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Message, TestFunction } from 'yup'
 
 declare module 'yup' {
   interface Schema<TType, TContext, TDefault, TFlags> {
@@ -7,7 +8,7 @@ declare module 'yup' {
       message: Message,
       callback: TestFunction<TType, TContext>,
       wait?: number
-    ): MixedSchema<TType, TContext, TDefault, TFlags>
+    ): this
   }
 }
 

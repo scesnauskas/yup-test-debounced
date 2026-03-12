@@ -1,6 +1,6 @@
 {
   "name": "yup-test-debounced",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Run yup test function debounced",
   "keywords": [
     "yup",
